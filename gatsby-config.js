@@ -3,6 +3,7 @@ module.exports = {
     title: 'Blog template',
     desc: 'Blog with a long description',
     keywords: 'blog, programming javacsript',
+    siteUrl: 'https://agitated-babbage-5a2af1.netlify.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -38,6 +39,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
